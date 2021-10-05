@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-sec {
+  height: 16vh;
+  padding: 10px;
+  width: 100%;
+  background-color: #72c28f;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding-right: 8%;
+}
+
+nav .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+h2 {
+  /* margin-top: 0px; */
+  margin-left: 10px;
+  font-size: 30px;
+  /* color: #fff; */
+}
+nav ul {
+  flex: 1;
+  margin: 5px;
+  text-align: right;
+}
+nav ul li {
+  margin: 28px;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  color: #000;
+  font-size: 22px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-size: 22px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+.body-sec1 {
+  width: 100%;
+  height: 605px;
+  background: url(images/tradimage3.png);
+  /* background-repeat: no-repeat; */
+  background-size: 100% 605px;
+  align-items: center;
+}
+.items {
+  margin: 0px 407px;
+  padding-top: 100px;
+  text-align: center;
+  background: rgba(7, 153, 72, 0.425);
+  opacity: 0.7;
+  border-radius: 60%;
+}
+.animation {
+  border: 10px solid white;
+  animation-name: anim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.change1 {
+  width: 50%;
+  height: 50%;
+}
+h1 {
+  font-size: 50px;
+  /* padding-top: 100px; */
+}
+.items h3 {
+  font-size: 50px;
+  cursor: pointer;
+}
+h1,
+h3 {
+  color: #fff;
+  text-shadow: 2px 2px 8px #ff1919;
+}
+
+/* h3:hover {
+  size: 10%;
+  color: turquoise;
+  border: 4px solid white;
+} */
+.line {
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 4px solid white;
+  /* transition: step-start; */
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim {
+  0% {
+    border-color: white;
+  }
+  10% {
+    border-color: red;
+  }
+  20% {
+    border-color: green;
+  }
+  30% {
+    border-color: tomato;
+  }
+  50% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: blue;
+  }
+}
+.line p {
+  color: #fff;
+  text-align: center;
+}
+
+.body-livetrad-sec1 {
+  width: 100%;
+  height: 605px;
+  background: url(images/tradimage2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 605px;
+  align-items: center;
+}
+.body-video-sec1 {
+  width: 100%;
+  height: 605px;
+  background: url(images/tradimage4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 605px;
+  align-items: center;
+}
+
+/* --------------video-section------------- */
+.body-video-sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards h4 {
+  color: #fff;
+}
+.card-sec {
+  display: flex;
+}
+.cards {
+  margin: 6px;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+.cards img {
+  width: 292px;
+  height: 269px;
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+}
+.cards a {
+  text-decoration: none;
+  color: blue;
+}
+
+/* ----------livetrad---------- */
+.body-livetrad-sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.live-sec {
+  text-align: center;
+}
+.btn {
+  margin-top: 40px;
+  padding: 10px 30px;
+  background-color: skyblue;
+  font-size: 30px;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+.live-sec .btn a {
+  text-decoration: none;
+}
+/* ----------------about--------- */
+.body-about-sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sec1 {
+  width: 70%;
+  height: 73vh;
+  background: #e2dbdb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-content {
+  width: 70%;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.para-icons {
+  margin-top: 50px;
+  align-items: stretch;
+}
+.para-icons i {
+  size: 80px;
+}
+.link {
+  padding: 10px;
+  text-decoration: none;
+}
+.about-image {
+  width: 70%;
+  padding: 20px;
+}
+.about-image img {
+  width: 200px;
+  height: 220px;
+  margin-bottom: 10px;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.425);
+}
+.sec2 {
+  width: 70%;
+  background-color: #000;
+}
+.sec2 h3 {
+  text-align: center;
+}
+.sec2 p {
+  text-align: center;
+  color: #fff;
+}
